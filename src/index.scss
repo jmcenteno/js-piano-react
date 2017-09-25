@@ -1,5 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$fa-font-path: '../node_modules/font-awesome/fonts';
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+* { 
+  box-sizing: border-box; 
+}
+
+html,
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  height: 100%;
+  font-size: 12px;
+
+  @media (min-width: 640px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 21px;
+  }
+
+}
+
+.clearfix {
+  clear: both;
 }
